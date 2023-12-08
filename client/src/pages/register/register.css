@@ -1,0 +1,46 @@
+/* register.css */
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .rContainer {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rInput {
+    width: 93%;
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+  
+  .rButton {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  
+  .rError {
+    color: red;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+  }
